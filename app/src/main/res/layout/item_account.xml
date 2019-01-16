@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cardview_account"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_cardview_account"
+        android:layout_margin="@dimen/margin_cardview_account"
+        card_view:cardCornerRadius="@dimen/cardview_corner_radius"
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintHorizontal_bias="0.0"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/tvTOTP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/margin_tv_totp"
+                android:layout_marginTop="@dimen/margin_tv_totp"
+                android:baselineAligned="false"
+                android:text="@string/sample_totp"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="@dimen/tsize_tv_totp" />
+
+            <TextView
+                android:id="@+id/tvWebsite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="@dimen/margin_start_tv_website"
+                android:layout_marginBottom="@dimen/margin_bottom_tv_website"
+                android:layout_toStartOf="@+id/btn_account_more"
+                android:text="@string/sample_website"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="@dimen/tsize_tv_website" />
+
+            <ImageButton
+                android:id="@+id/btn_account_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="@dimen/margin_image_button_account"
+                android:layout_marginBottom="@dimen/margin_image_button_account"
+                android:background="@null"
+                android:contentDescription="@string/desciption_content_btn_homescreen_more"
+                android:gravity="center_vertical"
+                android:src="@drawable/ic_more_vert_black_24dp" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

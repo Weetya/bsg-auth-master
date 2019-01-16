@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/enter_code_manually" />
+
+    <TextView
+        android:id="@+id/descriptionTextHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start_description_enter_code_manually"
+        android:layout_marginBottom="@dimen/margin_bottom_description_enter_code_manually"
+        android:text="@string/description_text"
+        android:textSize="@dimen/tsize_description_heading"
+        app:layout_constraintBottom_toTopOf="@+id/soft_token_input"
+        app:layout_constraintStart_toStartOf="@+id/soft_token_input" />
+
+
+    <com.santalu.maskedittext.MaskEditText
+        android:id="@+id/soft_token_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_et_input_soft_token"
+        android:ems="10"
+        android:hint="@string/enter_token_here_hint"
+        android:inputType="number"
+        app:met_mask="### ###"
+        android:padding="@dimen/padding_et_input_soft_token"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_bottom_btn_ok"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/ok_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

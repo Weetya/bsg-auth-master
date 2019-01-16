@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--HEIGHT & WIDTH-->
+    <dimen name="height_switch_devices">56dp</dimen>
+    <dimen name="height_cardview_account">100dp</dimen>
+    <dimen name="width_et_phone">240dp</dimen>
+    <dimen name="height_et_phone">40dp</dimen>
+    <dimen name="size_image_device">60dp</dimen>
+
+    <!--PADDING-->
+    <dimen name="padding_btn_add_new_account">24dp</dimen>
+    <dimen name="padding_et_input_soft_token">18dp</dimen>
+    <dimen name="padding_btn_pin_code_choice">18dp</dimen>
+    <dimen name="padding_btn_pin_code">24dp</dimen>
+    <dimen name="padding_et_phone">18dp</dimen>
+    <dimen name="padding_btn_submit_phone">48dp</dimen>
+
+    <!--MARGIN-->
+    <dimen name="margin_tv_add_new_account">16dp</dimen>
+    <dimen name="margin_top_btn_add_new_account">24dp</dimen>
+    <dimen name="margin_end_btn_add_new_account">12dp</dimen>
+    <dimen name="margin_tv_description_heading">120dp</dimen>
+    <dimen name="margin_tv__pass_declaration">88dp</dimen>
+    <dimen name="margin_start_tv_one_time_pass">12dp</dimen>
+    <dimen name="margin_top_tv_one_time_pass">248dp</dimen>
+    <dimen name="margin_bottom_btn_ok">200dp</dimen>
+    <dimen name="margin_switch_devices">30dp</dimen>
+    <dimen name="margin_start_description_enter_code_manually">20dp</dimen>
+    <dimen name="margin_bottom_description_enter_code_manually">90dp</dimen>
+    <dimen name="margin_top_et_input_soft_token">285dp</dimen>
+    <dimen name="margin_bottom_btn_pin_code">350dp</dimen>
+    <dimen name="margin_fab_home_screen">24dp</dimen>
+    <dimen name="margin_horiz_pinview">16dp</dimen>
+    <dimen name="margin_vert_pinview">8dp</dimen>
+    <dimen name="margin_btn_pin_code">8dp</dimen>
+    <dimen name="margin_cardview_account">5dp</dimen>
+    <dimen name="margin_tv_totp">20dp</dimen>
+    <dimen name="margin_start_tv_website">20dp</dimen>
+    <dimen name="margin_bottom_tv_website">17dp</dimen>
+    <dimen name="margin_image_button_account">30dp</dimen>
+    <dimen name="margin_top_et_phone">240dp</dimen>
+    <dimen name="margin_ccp">170dp</dimen>
+    <dimen name="margin_btn_submit_phone">230dp</dimen>
+    <dimen name="margin_horiz_cardview_device">5dp</dimen>
+    <dimen name="margin_vert_cardview_device">10dp</dimen>
+    <dimen name="margin_image_device">20dp</dimen>
+
+    <!--TEXT SIZE-->
+    <dimen name="tsize_description_heading">24sp</dimen>
+    <dimen name="tsize_pass_declaration">18sp</dimen>
+    <dimen name="tsize_one_time_pass">20sp</dimen>
+    <dimen name="tsize_switch_devices">18sp</dimen>
+    <dimen name="tsize_tv_totp">28sp</dimen>
+    <dimen name="tsize_tv_website">18sp</dimen>
+    <dimen name="tsize_tv_last_use">18sp</dimen>
+    <dimen name="tsize_tv_name_device">20sp</dimen>
+
+    <!--Others-->
+
+    <dimen name="cardview_corner_radius">15dp</dimen>
+    <dimen name="btn_corner_radius">18dp</dimen>
+    <dimen name="cardview_elevation">28dp</dimen>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <item
+       android:id="@+id/connected_devices"
+       android:title="@string/menu_connected_devices"/>
+    <item
+        android:id="@+id/delete_account"
+        android:title="@string/menu_delete_account"/>
+    <item
+        android:id="@+id/logout"
+        android:title="@string/menu_logout"/>
+</menu>

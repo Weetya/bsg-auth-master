@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="150dp"
+    android:layout_gravity="center"
+    android:background="@drawable/popup_shape"
+    android:backgroundTint="@color/colorPrimaryDark"
+
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="67dp"
+    tools:layout_editor_absoluteY="209dp">
+
+    <ImageView
+        android:id="@+id/icon_status"
+        android:layout_width="58dp"
+        android:layout_height="74dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/ic_on_success" />
+
+    <TextView
+        android:id="@+id/text_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/your_code_is_successful"
+        android:textColor="@color/colorPrimaryLight" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+
+        android:text="@string/ok_btn"
+        android:textColor="@color/colorAccent" />
+
+</LinearLayout>
+
+

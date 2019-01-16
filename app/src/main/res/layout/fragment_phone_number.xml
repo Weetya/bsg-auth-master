@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/ccp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/et_phone"
+        android:layout_marginTop="@dimen/margin_ccp"
+        android:background="@drawable/ic_rounded_phone"/>
+
+    <com.santalu.maskedittext.MaskEditText
+        android:id="@+id/et_phone"
+        android:layout_width="@dimen/width_et_phone"
+        android:layout_height="@dimen/height_et_phone"
+        android:paddingLeft="@dimen/padding_et_phone"
+        android:paddingRight="@dimen/padding_et_phone"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:digits="1234567890"
+
+        android:layout_marginTop="@dimen/margin_top_et_phone"
+        android:background="@drawable/ic_rounded_phone"
+        android:hint="@string/hint"
+        android:inputType="phone"
+        android:singleLine="true"
+        app:met_mask="## ### ####" />
+
+    <Button
+        android:id="@+id/submission_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingRight="@dimen/padding_btn_submit_phone"
+        android:paddingLeft="@dimen/padding_btn_submit_phone"
+        android:layout_marginBottom="@dimen/margin_btn_submit_phone"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/button_submit_phone_number" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@color/colorPrimaryLight"
+        app:title="@string/phone_number_title"/>
+
+</RelativeLayout>
